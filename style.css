@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: none;
+
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+main{
+    display: flex;
+}
+
+h1{
+    font-weight: 700;
+    color: var(--purple);
+    font-size: 36px;
+line-height: 54px;
+letter-spacing: 0.105em;
+}
+
+p{
+    margin: auto;
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: var(--text-color);
+}
+
+.text-clock{
+    font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+text-transform: capitalize;
+
+color: var(--light-grey);
+
+}
+
+.clock{
+    font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 108px;
+color: var(--black);
+margin: auto 5px;
+}
+
+.nav{
+ display: flex;
+ 
+}
+
+.card-clock{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+button{
+    
+    margin: auto;
+    margin-top: 31px;
+    width: 160px;
+height: 46px;
+border-radius: 10px;
+background: var(--purple);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+border: none;
+
+color: #FFFFFF;
+}
+
+img{
+    width: 607px;
+height: 435px;
+
+margin: auto;
+
+margin-top: 50px;
+}
+
+
+
+@media (max-width: 600px) {
+  
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1{
+        margin: auto;
+        font-weight: 700;
+        color: var(--purple);
+        font-size: 20px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    }
+    
+    p{
+        margin: auto;
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color);
+    }
+    
+    .text-clock{
+        font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    
+    color: var(--light-grey);
+    
+    }
+    
+    .clock{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 108px;
+    color: var(--black);
+    margin: auto 5px;
+    }
+    
+    .nav{
+     display: flex;
+     margin: auto;
+    }
+    
+    .card-clock{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    button{
+        
+        margin: auto;
+        margin-top: 31px;   
+        width: 160px;
+    height: 46px;
+    border-radius: 10px;
+    background: var(--purple);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    
+    color: #FFFFFF;
+    }
+    
+    img{
+        width: 435px;
+    height: 235px;
+    
+    margin: auto;
+    
+    margin-top: 50px;
+    }
+    
+}
