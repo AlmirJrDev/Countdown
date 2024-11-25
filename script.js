@@ -5,7 +5,7 @@ let secondsEl = document.getElementById("segundos")
 
 
 
-const newYears = "1 Jan 2025" 
+const newYears = "20 Dec 2024" 
 
 function countdown(){
 
